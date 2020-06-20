@@ -1,19 +1,6 @@
 import React from "react";
 import Book from "./Book";
 
-// function Book({ title, onClick }) {
-//   return (
-//     <div
-//       className="answer"
-//       onClick={() => {
-//         onClick(title);
-//       }}
-//     >
-//       <h4>{title}</h4>
-//     </div>
-//   );
-// }
-
 function Turn({ author, books, highlight, onAnswerSelected }) {
   function highlightToBgColor(highlight) {
     const mapping = {
